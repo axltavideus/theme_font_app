@@ -18,10 +18,6 @@ class SettingsScreen extends StatelessWidget {
             onTap: () => themeProvider.setTheme(ThemeProvider.lightTheme),
           ),
           ListTile(
-            title: Text('Dark Theme', style: TextStyle(fontFamily: themeProvider.currentFont)),
-            onTap: () => themeProvider.setTheme(ThemeProvider.darkTheme),
-          ),
-          ListTile(
             title: Text('Green Theme', style: TextStyle(fontFamily: themeProvider.currentFont)),
             onTap: () => themeProvider.setTheme(ThemeProvider.greenTheme),
           ),
