@@ -22,7 +22,6 @@ class ThemeProvider with ChangeNotifier {
     colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.green).copyWith(
       surface: Colors.green[50],  // Set a light green surface color for green theme
     ),
-    fontFamily: 'Courier New',
     scaffoldBackgroundColor: Colors.green[50],
     textTheme: TextTheme(
       bodyLarge: TextStyle(color: Colors.black),  // Text color for green theme
@@ -36,7 +35,6 @@ class ThemeProvider with ChangeNotifier {
     colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.red).copyWith(
       surface: Colors.red[50],  // Set a light red surface color for red theme
     ),
-    fontFamily: 'Arial',
     scaffoldBackgroundColor: Colors.red[50],
     textTheme: TextTheme(
       bodyLarge: TextStyle(color: Colors.black),  // Text color for red theme
